@@ -1,0 +1,43 @@
+header{margin-bottom: 0;
+}
+    main{
+    display: flex;
+    padding: 0;
+    }
+
+aside{
+    width: 30%;
+    background-color: aqua;
+   /*float:left;*/
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+article{
+    width: 70%;
+    height: auto;
+    background-color:darksalmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
+    
+    
+} 
+a img:hover{
+    border: solid;
+    border-color:  darksalmon;
+
+}
+
+footer{
+    clear: both;
+    background-color:darkcyan;
+    padding-top: 0px;
+    
+}
+
+
